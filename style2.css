@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans','Sans-serif';
+}
+
+.geral{
+    height: 100vh; /*Altura tela geral*/
+    width: 100vw;  /*Largura tela geral*/
+    background: #FFE3DC;
+    display: flex;
+    align-items: center; /*coluna*/
+    justify-content: center; /*linha*/
+}
+
+.esquerda {
+    width: 50vw; /* Apenas 50% da tela */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 45vw;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #ff048156; /*Sombra*/
+}
+
+.direita {
+    width: 50vw; /* Apenas 50% da tela */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login-direita {
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ff85c8;
+    padding: 10px 35px;
+    box-shadow: 0px 10px 40px #ff048156; /*Sombra*/
+}
+
+.acesso {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+input {
+    width: 100%;
+    border: none; /*Retira borda*/
+    border-radius: 10px;
+    padding: 15px; /*Altura do Input*/
+    background: #f8ffee;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #ff048156; /*Sombra*/
+    outline: none; /*Tira caixa do lado*/
+    box-sizing: border-box;
+
+}
+
+label {
+    color: #242727de;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 8px;
+    border: none;
+    margin: 25px;
+    outline: none;
+    text-transform: uppercase; /*Transformar em Maiusculo*/
+    font-weight: 800; /*Largura do Texto*/
+    letter-spacing: 3px;
+    box-shadow: 0px 10px 40px #ff048156; /*Sombra*/
+    color: #ffffff;
+    background: #3A2D32;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #afc7bb52;
+
+}
+
+h1 {
+    color:#3A2D32;
+}
+
+
+
+
+
+
